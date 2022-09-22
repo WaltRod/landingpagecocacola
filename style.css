@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 15px;
+    overflow: auto;
+}
+img{
+    max-width: 100%;
+}
+
+.header{
+    position: relative;
+}
+
+.imgcoca{
+    max-width: 400px;
+    height: 200px;
+    margin-left: 70%;
+    margin-top: 60px;
+    position: relative;
+}
+
+.imgcopo{
+    max-width: 270px;
+    margin-left: 62%;
+    margin-top: -15%;
+}
+
+.logo{
+    width: 200px;
+}
+
+.header-nav a{
+    color: #e40000;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 3px;
+    transition: color 0.3s linear;
+}
+
+.header-nav a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 0 15px 0 0;
+    padding: 14px;
+}
+
+.header-nav{
+    position:absolute;
+    top: 1px;
+    right: 40px;
+    height: 100%;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    
+}
+
+.section{
+    color: white;
+}
+
+.title-h1{
+    font-size: 30px;
+    margin-top: -25%;
+    margin-left: 20px;
+}
+
+.text{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 2%;
+}
+
+.btn-final{
+    border: 1px solid #b60000;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color 0.2s linear;
+}
+
+.btn-final:hover{
+    color: red
+}
